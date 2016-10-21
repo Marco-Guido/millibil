@@ -1,0 +1,2 @@
+gem build millibil.gemspec
+gem install xxx

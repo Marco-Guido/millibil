@@ -1,0 +1,6 @@
+pkg/*
+tmp/*
+*.o
+*.bundle
+*.so
+*.log
