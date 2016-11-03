@@ -34,8 +34,11 @@ class IntervalSet {
       void removeClosedInterval(int start, int stop) {
         set -= interval<int>::closed(start, stop);
       }
-      IntervalSet intersects(IntervalSet *intersectSet) {
-        return IntervalSet(this->set & intersectSet->set);
+      IntervalSet addAll(IntervalSet *otherSet) {
+        return IntervalSet(this->set + otherSet->set);
+      }
+      IntervalSet intersects(IntervalSet *otherSet) {
+        return IntervalSet(this->set & otherSet->set);
       }
       Array getIntervals() {
         Array rubyIntervals;
@@ -67,6 +70,7 @@ void Init_millibil()
     .define_method("addClosedInterval", &IntervalSet::addClosedInterval)
     .define_method("removeOpenInterval", &IntervalSet::removeOpenInterval)
     .define_method("removeClosedInterval", &IntervalSet::removeClosedInterval)
+    .define_method("addAll", &IntervalSet::addAll)
     .define_method("intersects", &IntervalSet::intersects)
     .define_method("getIntervals", &IntervalSet::getIntervals);
 }
