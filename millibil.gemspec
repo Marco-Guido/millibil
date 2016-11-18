@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  #s.add_runtime_dependency "daemons", ["= 1.1.0"]
+  s.add_runtime_dependency "rice", ["= 2.1.0"]
   s.name        = 'millibil'
   s.version     = '0.0.3'
   s.date        = '2016-02-01'
