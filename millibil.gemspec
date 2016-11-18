@@ -1,4 +1,5 @@
 Gem::Specification.new do |s|
+  #s.add_runtime_dependency "daemons", ["= 1.1.0"]
   s.name        = 'millibil'
   s.version     = '0.0.3'
   s.date        = '2016-02-01'
@@ -6,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = "Intervals everywhere !"
   s.authors     = ["Joris Van Hecke"]
   s.email       = "joris@progenda.be"
-  s.files       = FileList['lib/*.rb', 'ext/**/*'].to_a
+  s.files       = ["lib/millibil.rb", "ext/millibil/extconf.rb", "ext/millibil/millibil.cpp"]
   s.require_paths = ['lib', 'ext']
   s.homepage    = 'http://rubygems.org/gems/millibil'
   s.license     = 'MIT'
