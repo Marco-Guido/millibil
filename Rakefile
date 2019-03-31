@@ -3,8 +3,8 @@ require "rake/extensiontask"
 # somewhere in your Rakefile, define your gem spec
 spec = Gem::Specification.new do |s|
   s.name        = 'millibil'
-  s.version     = '0.0.3'
-  s.date        = '2016-02-01'
+  s.version     = '0.0.4'
+  s.date        = '2019-03-31'
   s.summary     = "Intervals-related data structures for Ruby based on C++'s Boost library"
   s.description = "Intervals everywhere !"
   s.authors     = ["Joris Van Hecke"]
