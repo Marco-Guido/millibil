@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = "Intervals everywhere !"
   s.authors     = ["Joris Van Hecke"]
   s.email       = "joris@progenda.be"
-  s.files       = ["lib/millibil.rb", "ext/millibil/extconf.rb", "ext/millibil/millibil.cpp"]
+  s.files       = ["lib/millibil.rb", "ext/extconf.rb", "ext/millibil/compute.cpp"]
   s.require_paths = ['lib', 'ext']
   s.homepage    = 'http://rubygems.org/gems/millibil'
   s.license     = 'MIT'
