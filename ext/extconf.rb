@@ -1,3 +1,3 @@
 require 'mkmf-rice'
 
-create_makefile('millibil/millibil')
+create_makefile('millibil/millibil', 'millibil')
