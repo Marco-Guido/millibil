@@ -1,3 +1,4 @@
+#include "rice/rice.hpp"
 #include "rice/stl.hpp"
 
 #include "boost/icl/interval.hpp"
