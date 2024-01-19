@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.add_runtime_dependency "rice", ["= 4.2.0"]
   s.name        = 'millibil'
-  s.version     = '0.0.6'
+  s.version     = '1.0'
   s.date        = '2024-01-19'
   s.summary     = "Intervals-related data structures for Ruby based on C++'s Boost library"
   s.description = "Intervals everywhere !"
