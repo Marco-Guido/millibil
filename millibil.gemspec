@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.add_runtime_dependency "rice", ["= 3.0.0"]
+  s.add_runtime_dependency "rice", ["= 2.2.0"]
   s.name        = 'millibil'
   s.version     = '0.0.6'
   s.date        = '2024-01-19'
