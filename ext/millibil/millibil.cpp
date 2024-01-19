@@ -1,10 +1,4 @@
-#include "rice/Class.hpp"
-#include "rice/String.hpp"
-#include "rice/Data_Type.hpp"
-#include "rice/Constructor.hpp"
-#include "rice/Array.hpp"
-#include "rice/Hash.hpp"
-#include "rice/Symbol.hpp"
+#include "rice/stl.hpp"
 
 #include "boost/icl/interval.hpp"
 #include "boost/icl/interval_map.hpp"
