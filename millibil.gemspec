@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib', 'ext']
   s.homepage    = 'http://rubygems.org/gems/millibil'
   s.license     = 'MIT'
-  s.extensions  = %w[ext/millibil/extconf.rb]
+  s.extensions  = %w[ext/extconf.rb]
 end
