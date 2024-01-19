@@ -4,7 +4,7 @@ require "rake/extensiontask"
 spec = Gem::Specification.new do |s|
   s.name        = 'millibil'
   s.version     = '0.0.6'
-  s.date        = '2014-01-19'
+  s.date        = '2024-01-19'
   s.summary     = "Intervals-related data structures for Ruby based on C++'s Boost library"
   s.description = "Intervals everywhere !"
   s.authors     = ["Joris Van Hecke"]
